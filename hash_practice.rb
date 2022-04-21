@@ -12,3 +12,8 @@ puts persons
 
 key, value = persons.first
 puts persons.first
+
+persons["body_odor"] = false
+persons["body_type"] = "athletic"
+
+puts persons.keys
